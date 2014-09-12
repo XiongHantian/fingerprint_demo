@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffe0"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:onClick="onClick"
+        android:layout_width="82dp"
+        android:layout_height="31dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/backsel" />
+
+    <com.xht.view.waterfall.WaterFall 
+        android:id="@+id/waterfall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

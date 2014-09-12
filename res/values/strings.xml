@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">现场指纹助手</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">现场指纹助手</string>
+
+</resources>
